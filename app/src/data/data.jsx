@@ -4,7 +4,7 @@ export const getData = async ()  =>{
     const options = {
         method: 'GET',
         headers: {
-            'authorization': 'apikey 0EgA7Y5nD52KsZWSMU7w9C:67CwPalKAfGkyHaBLorqlV',
+            'authorization': 'apikey 4OIjxjilpeF5fFQy2E1lAv:6tVwm4WoRlHJF8SdHbLsTF',
             "content-type": "application/json"
         }
     }

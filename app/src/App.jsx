@@ -14,8 +14,16 @@ function App() {
 
   return (
     <div className="App">
-      {dataSucces && petrolData.map((data, undex) => <Card data={data} key={undex}/>)}
-    <Card/>
+      {dataSucces && petrolData.map((data, undex) => (
+      <Card key={undex}
+      country={data.country}
+      currency={data.currency}
+      diesel={data.diesel}
+      gasoline={data.gasoline}
+      lpg={data.lpg}
+
+      />
+      ))}
     </div>
   );
 }
